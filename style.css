@@ -67,11 +67,20 @@ h1 {
 
 .image_list img{
     height: 200px;
-    margin-right: 20px;
 }
 
 .image_list{
     padding-left: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 #order_button:hover{
@@ -112,10 +121,6 @@ section{
     width: 80px;
 }
 
-#specials_section, #gallery_section{
-    text-align: center;
-}
-
 
 #specials_section img, #gallery_section img, #follow img{
     transition-duration: 0.5s;
@@ -136,4 +141,20 @@ footer {
 
 button{
     transition-duration: 0.5s ;
+}
+
+.enlarge_gallery{
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+
+.enlarge_gallery:hover{
+    background-color: rgb(197, 195, 191);
+}
+
+#image_url_input_gallery, #image_url_input_specials{
+    padding: 5px 10px;
+    width: 40%;
 }
