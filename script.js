@@ -1,5 +1,5 @@
-enlarge_gallery_button = document.getElementById("gallery_section").children[3];
-enlarge_specials_button = document.getElementById("specials_section").children[3];
+enlarge_gallery_button = document.getElementById("gallery_section").getElementsByClassName("image_input")[0].children[1];
+enlarge_specials_button = document.getElementById("specials_section").getElementsByClassName("image_input")[0].children[1];
 
 enlarge_gallery_button.addEventListener("click",  addImage)
 enlarge_specials_button.addEventListener("click", addImageSpecials)
