@@ -164,6 +164,7 @@ button{
 .order_button_animation{
     animation-name: order_button_animation;
     animation-duration: 1s;
+    transition-timing-function: cubic-bezier(0.76, -0.99, 0.46, 2.12);
 }
 
 @keyframes order_button_animation{
