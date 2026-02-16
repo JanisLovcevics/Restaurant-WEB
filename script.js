@@ -41,5 +41,8 @@ order_button.addEventListener("click",function(){
         image.style = "width: 300px; margin: 30px;"
         image.classList.add("order_button_animation");
         order_button.parentElement.appendChild(image);
+        image.addEventListener("click",function(){
+            image.remove()
+        })
     }
 })
