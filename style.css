@@ -160,3 +160,14 @@ button{
     padding: 5px 10px;
     width: 40%;
 }
+
+.order_button_animation{
+    animation-name: order_button_animation;
+    animation-duration: 1s;
+}
+
+@keyframes order_button_animation{
+    0% {transform: scale(1);}
+    50% {transform: scale(2);}
+    100% {transform: scale(1);}
+}
