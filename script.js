@@ -37,7 +37,7 @@ order_button.addEventListener("click",function(){
     else{
         const image = document.createElement("img");
         image.id = "order_animation_image";
-        image.src = "goaway.jpg";
+        image.src = "images/gallery/goaway.jpg";
         image.style = "width: 300px; margin: 30px;"
         image.classList.add("order_button_animation");
         order_button.parentElement.appendChild(image);
